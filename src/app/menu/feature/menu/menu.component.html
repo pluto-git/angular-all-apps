@@ -1,0 +1,12 @@
+<div class="h-full flex flex-col">
+
+    <app-menu-navbar></app-menu-navbar>
+    <main class="flex flex-col grow container mx-auto mt-8 ">
+        <app-menu-button class="p-2 flex justify-center" *ngFor="let app of myApps" [app]="app"></app-menu-button>
+    </main>
+    
+</div>
+<!-- scroll to top button -->
+<button ngxScrollTop [ngxScrollTopMode]="'classic'" color="primary" class="go-top-button" mat-mini-fab>
+    <mat-icon>arrow_upward</mat-icon>
+</button>

@@ -1,0 +1,32 @@
+#body-container {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#body-container {
+    font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    line-height: 1.4em !important;
+    background: #f5f5f5 !important;
+    color: #111111 !important;
+    min-width: 230px !important;
+    max-width: 550px !important;
+    margin: 0 auto !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    font-weight: 300 !important;
+}
+
+
+:focus {
+    outline: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+
