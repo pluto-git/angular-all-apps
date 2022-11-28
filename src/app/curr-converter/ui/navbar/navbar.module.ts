@@ -9,6 +9,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { RouterModule } from '@angular/router';
 import { CurrencyCardModule } from '../currency-card/currency-card.module';
+import { HomeButtonModule } from 'src/app/menu/ui/home-button/home-button.module';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CurrencyCardModule } from '../currency-card/currency-card.module';
     MatIconModule,
     MatMenuModule,
     RouterModule,
-    CurrencyCardModule
+    CurrencyCardModule,
+    HomeButtonModule
   ],
   exports: [
     NavbarComponent

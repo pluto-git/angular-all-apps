@@ -1,8 +1,8 @@
 <div class="h-full flex flex-col">
 
     <app-menu-navbar></app-menu-navbar>
-    <main class="flex flex-col grow container mx-auto mt-8 ">
-        <app-menu-button class="p-2 flex justify-center" *ngFor="let app of myApps" [app]="app"></app-menu-button>
+    <main class="flex flex-col container mx-auto mt-8 ">
+        <app-menu-button class="p-2 flex grow lg:grow-0 lg:self-center lg:w-3/4" *ngFor="let app of myApps" [app]="app"></app-menu-button>
     </main>
     
 </div>

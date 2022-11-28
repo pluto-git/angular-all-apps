@@ -1,8 +1,10 @@
 <header>
+    
     <mat-toolbar color="primary">
         <mat-toolbar-row class="flex ">
             <div class="box">
-                <button class="menu-option p-0" mat-flat-button color="primary" aria-label="logo" routerLink="/">
+             <app-menu-home-button [classes]="'opacity-[.5] hover:opacity-[1]'"></app-menu-home-button>
+                <button class="menu-option p-0 pointer-events-none" mat-flat-button color="primary" aria-label="logo">
                     <!-- can't align it properly with registering it as a custom mat-icon for now:
                 so let's go with the long version... -->
                     <svg class="inline" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"

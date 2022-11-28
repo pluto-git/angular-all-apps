@@ -5,6 +5,7 @@ import { PageNotFoundComponent } from '../shared/feature/page-not-found/page-not
 import { MenuComponent } from './feature/menu/menu.component';
 
 const routes: Routes = [
+
   {
     path: '', component: MenuComponent
   },
@@ -12,7 +13,7 @@ const routes: Routes = [
     path: AppRoutes.todos, loadChildren: () => import('src/app/todos/todos.module').then(m => m.TodosModule)
   },
   {
-    path: AppRoutes.currencyConverter, loadChildren: () => import('src/app/curr-converter/feature/curr-converter-shell/curr-converter-shell.module').then(m=>m.CurrConverterShellModule)
+    path: AppRoutes.currencyConverter, loadChildren: () => import('src/app/curr-converter/feature/curr-converter-shell/curr-converter-shell.module').then(m => m.CurrConverterShellModule)
   },
   {
     path: '**', component: PageNotFoundComponent

@@ -1,18 +1,15 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { AppInterface } from '../../data-access/interfaces/app.interface';
 
 @Component({
   selector: 'app-menu-button',
   templateUrl: './button.component.html'
 })
-export class ButtonComponent implements OnInit {
+
+export class ButtonComponent {
 
   @Input('app') appProps!: AppInterface;
 
   constructor() { }
-
-  ngOnInit(): void {
-
-  }
 
 }

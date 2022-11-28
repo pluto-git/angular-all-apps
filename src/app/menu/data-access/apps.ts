@@ -4,19 +4,17 @@ import { AppInterface } from "./interfaces/app.interface";
 
 export const myApps: AppInterface[] = [
     {
-        name: 'Todos with RxJs mostly', link: AppRoutes.todos
+        id: "1", name: 'Draw0. A full-stack drawing application', link: AppRoutes.draw0, isExternal: true
     },
     {
-        name: 'Currency conversion for EUR, USD, UAH', link: AppRoutes.currencyConverter
+        id: "2", name: 'Todos with RxJs mostly', link: AppRoutes.todos, isExternal: false
+    },
+
+    {
+        id: "3", name: 'Currency conversion for EUR, USD, UAH', link: AppRoutes.currencyConverter, isExternal: false
     },
     {
-        name: 'Todos MVC with RxJs mostly', link: AppRoutes.appMenu
+        id: "4", name: 'A job Board with several APIs', link: AppRoutes.jobBoard, isExternal: true
     },
-    {
-        name: 'Todos MVC with RxJs mostly', link: AppRoutes.appMenu
-    },
-    {
-        name: 'Todos MVC with RxJs mostly', link: AppRoutes.appMenu
-    },
-    
+
 ]

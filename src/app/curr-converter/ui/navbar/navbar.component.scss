@@ -33,6 +33,7 @@ app-currency-card {
 @media (max-width: 768px) {
   .middle-item>app-currency-card {
     visibility: hidden;
+    display: none;
   }
 
 }

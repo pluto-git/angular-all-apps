@@ -1,5 +1,5 @@
-<div class="h-full" [class.light-theme]="(currentTheme$ | async) === 'light'"
-    [class.dark-theme]="(currentTheme$ | async)  === 'dark'">
+<div class="h-full flex flex-col" [class.light-theme]="(currentTheme$ | async) === appThemes.light"
+    [class.dark-theme]="(currentTheme$ | async)  === appThemes.dark">
     <div class="h-full flex flex-col accentColorBG">
         <app-curr-converter-navbar (setTheme)="setTheme($event)" [currencies]="navbarCurrencies">
         </app-curr-converter-navbar>

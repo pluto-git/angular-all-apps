@@ -14,6 +14,7 @@ export class CurrConverterShellComponent implements OnInit {
 
   private lsKey: string = "Currencies";
   currentTheme$!: Observable<string>;
+  appThemes = AppThemes;
   navbarCurrencies!: CurrencyForCard[];
 
   private destroy$: Subject<boolean> = new Subject<boolean>();
