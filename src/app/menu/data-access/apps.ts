@@ -13,8 +13,6 @@ export const myApps: AppInterface[] = [
     {
         id: "3", name: 'Currency conversion for EUR, USD, UAH', link: AppRoutes.currencyConverter, isExternal: false
     },
-    {
-        id: "4", name: 'A job Board with several APIs', link: AppRoutes.jobBoard, isExternal: true
-    },
+
 
 ]
